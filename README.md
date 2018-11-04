@@ -7,6 +7,7 @@ Plugin for motd change on minecraft pocket edition / minecraft windows 10 editio
 You can now change your server motd from server level without restart.
 
 Example use:
+
 Random:
 /motd random
 
