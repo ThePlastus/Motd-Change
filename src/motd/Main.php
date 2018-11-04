@@ -53,6 +53,7 @@ class Main extends PluginBase implements Listener {
 							$this->getServer()->getNetwork()->setName("example 5");
 							break;
 						}
+						return true;
 					}else{
 						$sender->sendMessage("§8[§aMotd§8] §7Use: §a/motd random");
 						return true;
@@ -62,6 +63,7 @@ class Main extends PluginBase implements Listener {
 					if(isset($args[1])){
 						$text = $args[1];
 						$this->getServer()->getNetwork()->setName($text);
+						return true;
 					}else{
 						$sender->sendMessage("§8[§aMotd§8] §7Use: §a/motd custom <text>");
 						return true;
