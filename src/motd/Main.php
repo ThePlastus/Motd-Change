@@ -19,6 +19,7 @@ class Main extends PluginBase implements Listener {
 		$this->getServer()->getLogger()->info("§7==========================");
 		$this->getServer()->getLogger()->info("§9> §aMotdChange §8[§aLoading§8]");
 		$this->getServer()->getLogger()->info("§7==========================");
+		$this->getServer()->getNetwork()->setName("My default motd");
 	}
 	
 	public function onDisable(){
