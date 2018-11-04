@@ -41,7 +41,7 @@ class Main extends PluginBase implements Listener {
 							$this->getServer()->getNetwork()->setName("§9» §aThe §bBest §6Server !");
 							break;
 							case 2:
-							$this->getServer()->getNetwork()->setName("§9» $a join now !");
+							$this->getServer()->getNetwork()->setName("§9» $name join now !");
 							break;
 							case 3:
 							$this->getServer()->getNetwork()->setName("example 3");
