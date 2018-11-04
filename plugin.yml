@@ -1,0 +1,9 @@
+name: MotdChange
+version: 1.0
+api: 3.0.0,3.3.0
+main: motd\Main
+author: ThePlastus
+commands:
+  motd:
+   description: "Change Your Server MOTD"
+   permission : motd.change
